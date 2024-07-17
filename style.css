@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.img-fluid{
+    justify-content: start;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    height: 350px ;
+}
+.subcaja{
+    margin: auto;
+    color: white;
+}
+.caja2{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 30px 10px;
+}
+.card:hover{
+    filter: invert(100%);
+}
+.card-img-top{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(110, 255, 110);
+}
+.btn{
+    margin: 5px;
+}
+.caja3{
+    justify-content: center;
+}
+.album{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.uno{
+    padding: 10px;
+}
+.caja4{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.caja5{
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.carrusel img{
+    background-color: bisque;
+    height: 15rem;
+    border-radius:100% ;
+    margin-bottom: 20px;
+}
+.caja6{
+    background-color: rgb(12, 12, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+    padding-top: 40px;
+}
+.subcaja61{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    filter: invert(100%);
+    margin-bottom: 40px;
+
+}
+.subcaja61 img{
+    width: 12rem;
+}
+.subcaja6{
+    text-align: center;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    filter: invert(100%);
+    margin-bottom: 40px;
+}
+
+.img6{
+    width: 40px;
+    margin: 10px;
+}
